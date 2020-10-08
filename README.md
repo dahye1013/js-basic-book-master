@@ -1,34 +1,40 @@
-# [Do it! 자바스크립트 기초] 소스 파일 활용 방법
+//# [Do it! 자바스크립트 기초] 소스 파일 활용 방법
 
-**현재 깃허브에 올라와 있는 파일은 [Do it! 자바스크립트 기초]의 실습 파일입니다.** 
+#[Do it! 자바스크립트 기초] 교재를 보며 실습 따라하는 중!** 
 
 -----------------------------------------------
 
 
-### 깃허브 계정이 있다면
-1. 화면 오른쪽 위에 있는 [Fork] 버튼을 클릭합니다.
-2. 자신의 리포지토리에 복제된 소스를 사용하면 됩니다.
-
-![](https://github.com/funnycom/js-basic-book/blob/master/git-1.png)
+### 현재 60% 진도 진행중 
+- 20.10.07에 시작
+- 1일 1chapter이상 진도 나가는 것 목표
 
 ----------------------------------------------
 
-### 깃허브 계정이 없거나 한꺼번에 다운로드하려면
-1. 파일 목록 오른쪽 위에 있는 [Colone or download]를 클릭합니다. 
-2. [Download ZIP]을 클릭합니다.js-basic-book-master.zip 라는 파일이 다운로드됩니다.
-3. 원하는 위치에 js-file이라는 폴더를 만들고 그 안에 다운로드한 파일의 압축을 풉니다.
+### 중요해보이는 것 간단 정리
 
-![](https://github.com/funnycom/js-basic-book/blob/master/git-2.png)
+*for...of 문 
+let seasons = ["봄","여름","가을","겨울"];
+for(let value of seasons){
+  console.log(value);
+}
+
+
+*es06 템플릿 문자열
+const orginPrice =10000;
+document.querySelectory("#showResult").innerHTML = `원가는 ${orginPrice}`;
+
+
+*es06 매개변수 기본 값 지정
+function multiple(a,b=5){
+  return a+b; 
+}
+
+*es06 화살표 표기법 
+let hi = () => 안녕하세요;
+let greet = name => `${name}님, 안녕하세요`
+let add = (a,b) => a+b;
+
+*06 chapter - 객체 개념
 
 ----------------------------------------------
-
-### 실전 프로젝트에 도전해 보세요.
-'실전 프로젝트' 폴더에는 이 책을 공부한 후에 따라해 볼 수 있는 프로젝트 파일이 담겨 있습니다.
-
-- 숫자 맞히기 게임
-- 이미지 슬라이드 쇼
-- 온도 변환기
-
-실습 과정을 설명한 PDF 파일을 참고하면서 공부했던 내용을 복습해 볼 수 있습니다.
-
-
