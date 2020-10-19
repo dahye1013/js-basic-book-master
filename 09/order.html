@@ -46,12 +46,22 @@
 					</li>
 					<li>
 						<label class="field" for="shippingAddr">주소 : </label>
-						<input type="text" class="input-box" id="shippingAddr" name="shippingAddr">
+						<input type="text" class="input-box" id="shippingAddr"  name="shippingAddr">
 					</li>
 				</ul>				
 			</fieldset>
 			<button type="submit" class="order">결제하기</button>
 		</form>		
 	</div>
+	<script src="js/order.js">	</script>
+	<script>
+		//name이 ship인 곳에서 shippingName을 가지고 있는 value를 출력
+		let pay = document.querySelector(".check");
+		pay.addEventListener("click",function(){
+			console.log(document.ship.shippingName.value);
+		console.log(document.ship.shippingAddr.value);
+		})
+
+	</script>
 </body>
 </html>
