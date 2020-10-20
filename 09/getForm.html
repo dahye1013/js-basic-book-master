@@ -50,5 +50,29 @@
 	</div>
 
 	<script src="js/getForm.js"></script>
+	<script>
+		/*
+		******** select option ********
+		document.testForm.major.option[4]
+		-> 다섯번째 옵션 항목에 접근한다.
+		document.testForm.major.option[4].innerText 
+		-> "전기전자공학과" child node인 다섯번째 텍스트를 출력
+		document.testForm.major.option[4].value
+		-> 다섯번째 옵션의 서버 전달값 중요!!!		
+		document.testForm.major.options.selectedIndex
+		->  선택된 옵션의 숫자를 불러온다
+
+
+		******** Radio Box ********
+		document.testForm.subject
+		document.testForm.subject[0].cehcked
+		-> subject[0]이 체크되어있는지 boolean값으로 확인한다
+		
+		******** Check Box ********
+		document.testForm.mailing1.checked
+		-> radio 와 달리 중복 check 가능하므로 html name을 각기 다른것으로 주어야 한다.
+		*/
+		
+	</script>
 </body>
 </html>

@@ -9,8 +9,8 @@ check.addEventListener("click",function(){
         document.querySelector("#shippingAddr").value
         =document.querySelector("#billingAddr").value;
     }else{
-        document.querySelector("#billingName").value="";
+        document.querySelector("#shippingName").value="";
         document.querySelector("#shippingTel").value="";
-        document.querySelector("shippingAddr").value="";
+        document.querySelector("#shippingAddr").value="";
     }
 });
