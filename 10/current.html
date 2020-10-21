@@ -21,11 +21,17 @@
   <div id="current" class="display"></div>
   <script>
     setInterval(displayNow, 1000);
-
+    /*
+    ----- setInterval 함수 
+        일정한 시간 간격으로 작업을 수행하기 위해서 사용한다.
+        clearInterval 함수를 사용하여 중지 
+        시간 간격으로 실행되는 작업이 그 시간 간격보다 오래걸릴 경우 문제가 발생
+    */
     function displayNow() {
       var now = new Date();
       document.querySelector("#current").innerHTML = now.toLocaleTimeString();
     }
+    
   </script>
 </body>
 </html>
